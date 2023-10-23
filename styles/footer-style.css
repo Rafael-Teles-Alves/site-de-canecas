@@ -1,0 +1,25 @@
+footer {
+    
+    background-color: rgba(218, 218, 218, 0.658);
+}
+.ft-img {
+    display: flex;
+    justify-content: center;
+}
+.ft-img .img-ft {
+    margin: 15px;
+    border-radius: 20px;
+}
+.conteiner-foter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.titulo-footer {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    color: rgb(192, 142, 6);
+    
+}
