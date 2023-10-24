@@ -1,0 +1,56 @@
+/* Estilo do container geral */
+.conteiner-cont {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.116);
+  }
+  
+  /* Estilo dos títulos */
+  #titulo-cont {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo das etiquetas e campos de entrada */
+  .leb-cont {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .inp-cont, #op-cont, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo do botão de envio */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilo do botão de envio ao passar o mouse (hover) */
+  button:hover {
+    background-color: #0056b3;
+  }
+  .img-footer {
+    display: inline;
+    margin: 15px;
+    border-radius: 50px;
+    width: 50px;
+  }
