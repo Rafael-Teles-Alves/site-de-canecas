@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página em Construção</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #start-btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Ops, enquanto trabalhamos na nossa página, divirta-se com o famoso Jogo da Velha!
+    </div>
+    <button id="start-btn">Iniciar Jogo da Velha</button>
+
+    <script>
+        document.getElementById("start-btn").addEventListener("click", function() {
+            // Ao clicar no botão, redireciona para a página do jogo da velha
+            window.location.href = "jogo_da_velha.html";
+        });
+    </script>
+</body>
+</html>
