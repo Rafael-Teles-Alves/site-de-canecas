@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.dark_bnt {
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px 5px 10px 5px;
+}
+.dark_bnt:hover {
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.4s;
+    box-shadow: 10px 5px 10px black;
+
+}
+
+
+
+footer {
+    clear: both;
+}
+
